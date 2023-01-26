@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css"> 
+
+    <title>Ukoly</title>
+
+</head>
+
+<body>
+
+    <section class="ukol1-2">
+        <p onmouseover="tucny()" >V elipse spí lev</p>
+
+        <button onclick="zmenaBarvy()" class="tlacitko1">červený po kliknutí</button>
+        <button onclick="zmenaVelikosti()" class="tlacitko1">změnit velikost textu</button>
+    </section>
+
+    <section class="ukol3">
+
+		<h1>PŘEHRÁVAČ</h1>
+		<audio class="mujPrehravac" src="dingdingdang.mp3" preload="auto"></audio>
+
+
+        <button onclick="zpetAudio()" title="BACK"  class="tlacitko">&#x23ee;</button>
+		<button onclick="spustAudio()" title="PLAY" class="tlacitko">&#x23f5;</button>
+		<button onclick="pauzaAudio()" title="PAUSE"  class="tlacitko">&#x23f8;</button>
+
+
+        <section class="hlasitost">
+            <h3>VOLUME</h3>
+            <button onclick="volumeAudio0()" class="tlacitko volume">0</button>
+            <button onclick="volumeAudio05()" class="tlacitko volume">0.5</button>
+            <button onclick="volumeAudio1()" class="tlacitko volume">1</button>
+        </section>
+
+    </section>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
